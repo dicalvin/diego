@@ -1,0 +1,45 @@
+h1 {
+    background-color: #964b00;
+    max-width: 305px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: solid;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #964b00;
+}
+
+ul {
+    margin-top: 0px;
+    background-color: rgba(254, 225, 43, 0.6);
+}
+
+ol {
+    margin-top: 0px;
+    background-color: rgba(254, 225, 43, 0.6);
+}
+
+h3 {
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #964b00;
+}
+
+body {
+    background-image: url('bulbs.JPG');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.background-image {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+p {
+    border: solid;
+    border-radius: 6px;
+    background-color: rgb(254, 225, 43);
+}
