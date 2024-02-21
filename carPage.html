@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalMel Motors</title>
+    <link rel="stylesheet" href="carPage.css">
+</head>
+<body>
+    <script> src="carPage.js"</script>
+
+    <h1>CALMEL MOTORS</h1>
+
+    <h2>Find Your Comfort Ride Here</h2>
+    <form action="carForm" class="container">
+        <div class="form-group">
+            <label for="carMake">Car Make:</label>
+            <select name="carMake" id="carMake">
+                <option value="toyota">Toyota</option>
+                <option value="bmw">BMW</option>
+                <option value="landrover">Land Rover</option>
+                <option value="audi">Audi</option>
+                <option value="mercedesbenz">Mercedes Benz</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="fuelType">Fuel Type:</label>
+            <select name="fuelType" id="fuelType">
+                <option value="petrol">Petrol</option>
+                <option value="diesel">Diesel</option>
+                <option value="hybrid">Hybrid</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="seats">Number of Seats:</label>
+            <select name="seats" id="seats">
+                <option value="2">2</option>
+                <option value="5">5</option>
+                <option value="7">7</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="engine">Engine size:</label>
+            <select name="engine" id="engine">
+                <option value="1500">1500 cc</option>
+                <option value="1800">1800 cc</option>
+                <option value="2000">2000 cc</option>
+                <option value="2500">2500 cc</option>
+                <option value="3000">3000 cc</option>
+                <option value="6000">6000 cc</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="mileage">Mileage:</label>
+            <select name="mileage" id="mileage">
+                <option value="0">0 km</option>
+                <option value="20000">20000 km</option>
+                <option value="50000">50000 km</option>
+                <option value="75000">75000 km</option>
+                <option value="100000">100000 km</option>
+            </select>
+        </div>
+        <button type="submit" class="btn">Unveil my Ideal Ride</button>
+
+    </form>
+    
+</body>
+</html>
